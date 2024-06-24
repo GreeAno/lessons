@@ -24,22 +24,20 @@ body {
 
 
 }
+
 .header_nav {
     font-size: 16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
     gap: 48px;
-    display: flex;
-    
-   
-
-    
+    display: flex; 
+    text-decoration: none;
 }
 
 .header_image {
     width: 181px;
     height: 45px;
-    
-  
 }
 
 .header_menu img {
@@ -51,3 +49,42 @@ body {
     gap: 45px;
 }
 
+a {
+    color: black;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+.bodytheme {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    
+   
+   
+
+}
+
+.body_image {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.body_layout {
+    text-align: center;
+    width: 100%;
+    color: black;
+    background-color: #FFF3E3;
+    width: 634px;
+    height: 443px;
+    position: relative;
+}
