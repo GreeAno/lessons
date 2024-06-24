@@ -27,8 +27,9 @@ body {
 .header_nav {
     font-size: 16px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    gap: 20px;
+    gap: 48px;
     display: flex;
+    
    
 
     
