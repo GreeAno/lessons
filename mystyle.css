@@ -87,7 +87,7 @@ a:active {
 
 /*Здесь начинается сообщение о новом поступлении*/
 
-.lay_background {
+.banner {
     background-image: url(pngs/scandinavian-interior-mockup-wall-decal-background\ 1.svg);
     background-size: cover;
     background-position: center;
@@ -107,7 +107,7 @@ a:active {
 
 }
 
-.lay_text {
+.banner_text {
     background-color:#FFF3E3;
     width: 634px;
     height: 443px;
@@ -148,7 +148,7 @@ a:active {
     margin: 0 0 0 50px; 
 }
 
-.lay_disc {
+.banner_disc {
     color: black;
     font-size: 18px;
     line-height: 24px;
@@ -184,6 +184,17 @@ a:active {
     text-align: center;
     align-items: center;
     margin: 0 auto;
+    justify-content: center;
+    font-style: normal;
+    text-align: center;
+    
+
+
+    display: table;
+    
+    
+    
+
 }
 
 .browse_text {
@@ -191,7 +202,7 @@ a:active {
     align-items: center;
     display: flex;
     font-size: 32px;
-    margin: 50px auto;
+    margin: 50px 0 0 40%;
     line-height: 48px;
     font-weight: 700;
     
@@ -204,8 +215,14 @@ a:active {
     font-size: 20px;
     line-height: 30px;
     vertical-align: auto;
+    margin: 0 0 0 35%;
 
 }
+
+
+
+
+
 
 
 
