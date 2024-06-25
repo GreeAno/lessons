@@ -10,7 +10,9 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(11, 11, 11);
+    background-color: white;
+    width: 100%;
+    max-width: auto;
 }
 .header {
     width: 100%;
@@ -22,12 +24,14 @@ body {
     background-color: white;
     color: black;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     margin: 0 auto;
     max-width: 1440px;
-    padding: 29px 0px;
+    padding: 20px 0px;
     width: 100%;
 
 
@@ -60,11 +64,13 @@ body {
 
 .header_menu img {
     width: 28px;
-    height: 28px; 
+    height: 28px;
+     
 }
+
 .header_menu {
     display: flex;
-    gap: 45px;
+    gap: 45 px;
 }
 
 a {
@@ -79,30 +85,113 @@ a:active {
     text-decoration: underline;
 }
 
-.bodytheme {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+.lay_background {
+    background-image: url(pngs/scandinavian-interior-mockup-wall-decal-background\ 1.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: white;
-    
-   
-   
-
-}
-
-.body_image {
+    width: 100%;
+    height: 716.83px;
     display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 1440px;
+    align-items: center;
+    justify-content: right;
+    
+    
+    
+
+  
+    
+
 }
 
-.body_layout {
-    text-align: center;
-    width: 100%;
-    color: black;
-    background-color: #FFF3E3;
+.lay_text {
+    background-color:#FFF3E3;
     width: 634px;
     height: 443px;
-    position: relative;
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    text-align: left;
+    margin-right: 150px;
+    border-radius: 15px;
+
+    
 }
+
+.newarrival {
+    line-height: 24px;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 50px 0 0 50px;
+    color: black;
+    width: 123px;
+    height: 24px;
+    top: 315px;
+    left: 780px;
+    
+    
+    
+
+}
+
+.discover {
+    color: #B88E2F;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    width: 559px;
+    height: 127px;
+    top: 343px;
+    left: 780px;
+    margin: 100px 200px 200px 100px; 
+      
+}
+
+.lay_button {
+    background-color: #B88E2F;
+    color: white;
+    border-radius: 5px;
+    width: 222px;
+    height: 74px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.products {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.browse_text {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 32px;
+    margin: 50px auto;
+    line-height: 48px;
+    font-weight: 700;
+    
+}
+
+.browse_desc {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: auto;
+
+}
+
+
+
