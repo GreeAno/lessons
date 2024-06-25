@@ -45,6 +45,17 @@ body {
 .header_image {
     width: 181px;
     height: 45px;
+    -moz-transition: all 0.4s;
+    -webkit-trasition: all 0.4s;
+    -ms-trasition: all 0.4s;
+    -o-trasition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.header_image:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 
 .header_menu img {
