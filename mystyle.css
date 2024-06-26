@@ -163,6 +163,7 @@ a:active {
     max-width: 222px;
     height: 74px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 16px;
@@ -187,9 +188,6 @@ a:active {
     justify-content: center;
     font-style: normal;
     text-align: center;
-    
-
-
     display: table;
     
     
@@ -202,9 +200,10 @@ a:active {
     align-items: center;
     display: flex;
     font-size: 32px;
-    margin: 50px 0 0 40%;
     line-height: 48px;
     font-weight: 700;
+    justify-content: center;
+    
     
 }
 
@@ -215,9 +214,30 @@ a:active {
     font-size: 20px;
     line-height: 30px;
     vertical-align: auto;
-    margin: 0 0 0 35%;
+    justify-content: center;
+}
+
+.dlbimages {
+    width: 381px;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.dlbimagesdesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
+    align-items: center;
+
 
 }
+
+
 
 
 
