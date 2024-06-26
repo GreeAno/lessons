@@ -196,18 +196,22 @@ a:active {
 }
 
 .browse_text {
+    width: 100%;
+    max-width: 1440px;
     text-align: center;
     align-items: center;
     display: flex;
     font-size: 32px;
     line-height: 48px;
     font-weight: 700;
-    justify-content: center;
-    
-    
+    justify-content: center; 
 }
 
+
 .browse_desc {
+    margin: 0;
+    width: 100%;
+    max-width: 1440px;
     text-align: center;
     align-items: center;
     display: flex;
@@ -222,20 +226,253 @@ a:active {
     height: 480px;
     display: flex;
     align-items: center;
-    gap: 150px;
     flex-direction: row;
     margin-top: 50px;
+    max-width: auto;
+    width: 100%;
+    justify-content: space-between;
+    
 }
 
 .dlbimagesdesc {
+    
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0 150px 0 150px;
     align-items: center;
+    text-align: center;
+}
 
+.dining {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.living {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.bedroom {
+    font-size: 24px;
+    color: black;
+    font-weight: 600;
+    line-height: 36px;
 
 }
+
+/* Карточки товаров*/
+
+.cards {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.syltherinecard {
+   display: table;
+   width: 285px;
+   height: 145px;
+   max-width: auto;
+   background-color: #F4F5F7;
+   float: none;
+   align-items: center;
+   text-align: left;
+   margin-left: 150px;
+   position: relative;
+}
+
+.syltherine {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+
+.stylish {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #898989;
+}
+
+.pricesyltherine {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.syltherineimg {
+    display: block;
+
+}
+
+.oldpricesyltherine {
+    color: #898989;
+    display: flex;
+    position: absolute;
+    text-decoration: line-through;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    top: 399px;
+    right: 16px;
+
+}
+
+.discont30 {
+    background-color: #E97171;
+    display: flex;
+    position: absolute;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    right: 30px;
+    top: 10px;
+}
+
+.lolitocard {
+    display: table;
+    width: 285px;
+    height: 145px;
+    max-width: auto;
+    background-color: #F4F5F7;
+    float: none;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    
+ }
+ 
+ .lolito {
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 28.8px;
+ }
+ 
+ .luxury {
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     color: #898989;
+ }
+ 
+ .pricelolito {
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 30px;
+ }
+ 
+ .lolitoimg {
+     display: block;
+ 
+ }
+ 
+ .oldpricelolito {
+     color: #898989;
+     display: flex;
+     position: absolute;
+     text-decoration: line-through;
+     font-size: 16px;
+     line-height: 16px;
+     font-weight: 400;
+     top: 393px;
+     right: 16px;
+ 
+ }
+ 
+ .discont50 {
+     background-color: #E97171;
+     display: flex;
+     position: absolute;
+     color: white;
+     text-align: center;
+     align-items: center;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     width: 48px;
+     height: 48px;
+     border-radius: 100px;
+     right: 30px;
+     top: 10px;
+ }
+
+ .respiracard {
+    display: table;
+    width: 285px;
+    height: 145px;
+    max-width: auto;
+    background-color: #F4F5F7;
+    float: none;
+    align-items: center;
+    text-align: left;
+    margin-left: 150px;
+    position: relative;
+ }
+ 
+ .respira {
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 28.8px;
+ }
+ 
+ .outdoor {
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     color: #898989;
+ }
+ 
+ .pricerespira {
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 30px;
+ }
+ 
+ .respiraimg {
+     display: block;
+ 
+ }
+ 
+ 
+ 
+ .discontnew {
+     background-color: #2EC1AC;
+     display: flex;
+     position: absolute;
+     color: white;
+     text-align: center;
+     align-items: center;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     width: 48px;
+     height: 48px;
+     border-radius: 100px;
+     right: 30px;
+     top: 10px;
+ }
+
+
+
+
+
+
 
 
 
