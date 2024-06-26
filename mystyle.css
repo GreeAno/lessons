@@ -98,6 +98,7 @@ a:active {
     display: flex;
     align-items: center;
     justify-content: right;
+    max-width: auto;
     
     
     
@@ -181,10 +182,11 @@ a:active {
     background-color: white;
     display: flex;
     width: 100%;
-    max-width: 1440px;
+    max-width: auto;
+    max-width: 1183px;
     text-align: center;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
     justify-content: center;
     font-style: normal;
     text-align: center;
@@ -197,7 +199,7 @@ a:active {
 
 .browse_text {
     width: 100%;
-    max-width: 1440px;
+    max-width: auto;
     text-align: center;
     align-items: center;
     display: flex;
@@ -211,7 +213,7 @@ a:active {
 .browse_desc {
     margin: 0;
     width: 100%;
-    max-width: 1440px;
+    max-width: auto;
     text-align: center;
     align-items: center;
     display: flex;
@@ -222,14 +224,12 @@ a:active {
 }
 
 .dlbimages {
-    width: 381px;
-    height: 480px;
+   max-width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
     margin-top: 50px;
-    max-width: auto;
-    width: 100%;
+    
     justify-content: space-between;
     
 }
@@ -269,12 +269,19 @@ a:active {
 
 /* Карточки товаров*/
 
+
 .cards {
     display: flex;
     align-items: center;
     margin: 0;
-    justify-content: space-between;
     padding: 0;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1236px;
+    flex-basis: 25%;
+    
+    
+    
 }
 
 .syltherinecard { /*card1*/
@@ -288,6 +295,9 @@ a:active {
    text-align: left;
    margin-left: 150px;
    position: relative;
+   
+   max-width: 285px;
+   
 }
 
 .syltherine {
@@ -355,6 +365,7 @@ a:active {
     text-align: left;
     margin: 0 auto;
     position: relative;
+    max-width: 285px;
 }
 
 .leviosa {
@@ -392,6 +403,7 @@ a:active {
     text-align: left;
     margin: 0 auto;
     position: relative;
+    max-width: 285px;
     
  }
  
@@ -460,7 +472,9 @@ a:active {
     text-align: left;
     margin-right: 150px;
     position: relative;
+    max-width: 285px;
  }
+
  
  .respira {
      font-size: 24px;
@@ -482,6 +496,233 @@ a:active {
  }
  
  .respiraimg {
+     display: block;
+ 
+ }
+ 
+ 
+ 
+ .discontnew {
+     background-color: #2EC1AC;
+     display: flex;
+     position: absolute;
+     color: white;
+     text-align: center;
+     align-items: center;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     width: 48px;
+     height: 48px;
+     border-radius: 100px;
+     right: 30px;
+     top: 10px;
+ }
+
+ .grifocard { /*card5*/
+    display: table;
+    width: 285px;
+    height: 446px;
+    max-width: auto;
+    background-color: #F4F5F7;
+    float: none;
+    align-items: center;
+    text-align: left;
+    margin-left: 150px;
+    position: relative;
+    
+}
+
+.grifo {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+
+.nightgrifo {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #898989;
+}
+
+.pricegrifo {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.grifoimg {
+    display: block;
+
+}
+
+.muggocard { /*card6*/
+    display: table;
+    width: 285px;
+    height: 145px;
+    max-width: auto;
+    background-color: #F4F5F7;
+    float: none;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    max-width: 285px;
+    right: 10px;
+ }
+
+ 
+ .muggo {
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 28.8px;
+ }
+ 
+ .smallmug {
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     color: #898989;
+ }
+ 
+ .pricemuggo {
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 30px;
+ }
+ 
+ .muggoimg {
+     display: block;
+ 
+ }
+ 
+ 
+ 
+ .discontnew {
+     background-color: #2EC1AC;
+     display: flex;
+     position: absolute;
+     color: white;
+     text-align: center;
+     align-items: center;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     width: 48px;
+     height: 48px;
+     border-radius: 100px;
+     right: 30px;
+     top: 10px;
+ }
+
+ .pingkycard { /*card7*/
+    display: table;
+    width: 285px;
+    height: 145px;
+    max-width: auto;
+    background-color: #F4F5F7;
+    float: none;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    max-width: 285px;
+    right: 42px;
+    
+ }
+ 
+ .pingky {
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 28.8px;
+ }
+ 
+ .cutebed {
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     color: #898989;
+ }
+ 
+ .pricepingky{
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 30px;
+ }
+ 
+ .pingkyimg {
+     display: block;
+ 
+ }
+ 
+ .oldpricepingky {
+     color: #898989;
+     display: flex;
+     position: absolute;
+     text-decoration: line-through;
+     font-size: 16px;
+     line-height: 16px;
+     font-weight: 400;
+     top: 393px;
+     right: 16px;
+ 
+ }
+ 
+ .discont50 {
+     background-color: #E97171;
+     display: flex;
+     position: absolute;
+     color: white;
+     text-align: center;
+     align-items: center;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     width: 48px;
+     height: 48px;
+     border-radius: 100px;
+     right: 30px;
+     top: 10px;
+ }
+
+ .pottycard { /*card8*/
+    display: table;
+    width: 285px;
+    height: 145px;
+    max-width: auto;
+    background-color: #F4F5F7;
+    float: none;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    max-width: 285px;
+    right: 100px;
+    
+ }
+
+ 
+ .potty {
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 28.8px;
+ }
+ 
+ .minimalist {
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     color: #898989;
+ }
+ 
+ .pricepotty {
+     font-size: 20px;
+     font-weight: 600;
+     line-height: 30px;
+ }
+ 
+ .pottyimg {
      display: block;
  
  }
