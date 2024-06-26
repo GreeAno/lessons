@@ -272,12 +272,12 @@ a:active {
 .cards {
     display: flex;
     align-items: center;
-    flex-direction: row;
-    margin: 0 auto;
-    justify-content: space-evenly;
+    margin: 0;
+    justify-content: space-between;
+    padding: 0;
 }
 
-.syltherinecard {
+.syltherinecard { /*card1*/
    display: table;
    width: 285px;
    height: 145px;
@@ -344,7 +344,44 @@ a:active {
     top: 10px;
 }
 
-.lolitocard {
+.leviosacard { /*card2*/
+    display: table;
+    width: 285px;
+    height: 446px;
+    max-width: auto;
+    background-color: #F4F5F7;
+    float: none;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+}
+
+.leviosa {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+
+.stylishleviosa {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #898989;
+}
+
+.priceleviosa {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.leviosaimg {
+    display: block;
+
+}
+
+.lolitocard { /*card3*/
     display: table;
     width: 285px;
     height: 145px;
@@ -412,7 +449,7 @@ a:active {
      top: 10px;
  }
 
- .respiracard {
+ .respiracard { /*card4*/
     display: table;
     width: 285px;
     height: 145px;
@@ -421,7 +458,7 @@ a:active {
     float: none;
     align-items: center;
     text-align: left;
-    margin-left: 150px;
+    margin-right: 150px;
     position: relative;
  }
  
@@ -467,6 +504,8 @@ a:active {
      right: 30px;
      top: 10px;
  }
+
+
 
 
 
