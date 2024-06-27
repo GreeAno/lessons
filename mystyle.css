@@ -9,10 +9,13 @@
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
-    padding: 0;
     background-color: white;
     width: 100%;
     max-width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 .header {
@@ -274,7 +277,7 @@ a:active {
 .cards {
     display: flex;
     align-items: center;
-    margin: 0;
+    margin-bottom: 20px;
     padding: 0;
     flex-wrap: wrap;
     width: 100%;
@@ -751,6 +754,20 @@ a:active {
      top: 10px;
  }
 
+ .showmorebutton {
+    
+    text-align: center;
+    font-size: 18px;
+    margin-top: 100px;
+    border: 2px solid red;
+    padding: 10px;
+    max-width: auto;
+    align-items: center;
+    justify-content: center;
+    width: 245px;
+    
+    
+ }
 
 
 
