@@ -20,12 +20,16 @@
    
   }
 
+  
+
 body {
     font-family: "Poppins", sans-serif;
     margin: 0 auto;
     max-width: 100%;
     display: flex;
+    height: auto;
     background-color: white;
+    
 }
 
 .header_wrap {
@@ -75,5 +79,21 @@ gap: 28px;
 align-items: center;
 align-self: center;
 justify-content: flex-end;
+
+}
+
+.main-content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container_newcollection {
+    background-image: url("pngs/scandinavian-interior-mockup-wall-decal-background\ 1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 
 }
