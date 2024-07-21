@@ -393,6 +393,34 @@ body {
   border: solid 1px #B88E2F;
 }
 
+.container_beautiful_rooms {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.beautiful_rooms_desc {
+  padding: 326px;
+  background-color: #FCF8F3 ;
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  
+}
+
+.beautiful_rooms_desc h1:nth-of-type(2) {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color:#B88E2F;
+  width: 176px;
+  height: 48px;
+  line-height: 24px;
+  text-align: center;
+  
+  
+}
 
 
 
