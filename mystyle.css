@@ -1,38 +1,24 @@
 @font-face {
   font-family: "Poppins";
-  src: local("Poppins-Regular"), url("Poppins.ttf") format("ttf"),
-    url("Poppins.svg") format("svg");
-}
-
-@media screen and (max-width: 650px) {
-  .header_wrap {
-    float: none;
-    display: block;
-    text-align: left;
-    align-items: left;
-  }
-  .menu_buttons {
-    float: none;
-  }
+  src: local("Poppins") url("./fonts/fontname.ttf") format("ttf");
 }
 
 body {
   font-family: "Poppins", sans-serif;
-  margin: 0 auto;
-  max-width: 100%;
   display: flex;
-  height: auto;
-  background-color: white;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .header_wrap {
   overflow: hidden;
   background-color: white;
-  width: 100%;
   height: 100px;
   display: flex;
-  justify-content: space-around;
   padding: 10px 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header_image {
@@ -43,45 +29,392 @@ body {
   justify-content: flex-start;
 }
 
-.menu_buttons a {
-  float: left;
-  display: block;
-  padding: 20px;
+.menu__buttons {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__buttons a {
   color: black;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   font-family: "Poppins";
   text-decoration: none;
-  justify-content: flex-start;
-}
-
-.menu_buttons li {
-  display: inline;
-  text-align: center;
-  padding: 10px;
+  justify-content: space-between;
 }
 
 .header_menu_images {
-  width: 28px;
-  height: 28px;
   display: flex;
-  gap: 28px;
-  align-items: center;
+  gap: 35px;
+  align-items: right;
   align-self: center;
   justify-content: flex-end;
 }
 
 .main-content {
-  padding: 20px;
   display: flex;
   align-items: center;
-  margin: 0 auto;
   position: relative;
+  flex-direction: column;
 }
 
 .container_newcollection {
-  background-image: url("pngs/scandinavian-interior-mockup-wall-decal-background\ 1.svg");
+  background-image: url("./pngs/bg.svg");
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
+  min-height: 730px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+
+
+.banner_text {
+  padding: 50px 43px 37px 39px;
+  flex-direction: column;
+  background-color: #FFF3E3;
+  width: 643px;
+  height: 443px;
+  margin-right: 58px;
+  border-radius: 10px;
+  text-align: left;
+  align-items: center;
+}
+
+.new_arrival {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 3px;
+}
+
+.banner_text h1 {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+  color: #B88E2F;
+}
+
+.lorem {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;  
+}
+
+.buy_now {
+  display: flex;
+  width: 222px;
+  height: 74px;
+  background-color: #B88E2F;
+  justify-content:center;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 16px;
+  align-items: center;
+  font-weight: 700;
+}
+
+.block_with_cards {
+  padding: 50px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1183px;
+  height: 685px;
+}
+.block_with_cards_text {
+  padding-bottom: 50px;
+}
+
+.block_with_cards_text h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.block_with_cards_text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.block_with_cards_img {
+  
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+ 
+}
+
+.block_with_cards_underline {
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: row;  
+  justify-content: space-around;
+  gap: 50px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  
+}
+
+.products  {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  width: 1236px;
+  height: 1084;
+}
+
+.first_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.syltherine_card {
+  width: 285px;
+  height: 446px;
+  background-color: #F4F5F7;
+  text-align: left;
+}
+
+.syltherine_card h1 {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.syltherine_card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #898989;
+  padding-left: 10px;
+  
+}
+
+.syltherine_card p:nth-of-type(2) {
+  text-decoration: line-through;
+  justify-content: flex-end;
+  display: flex;
+  padding-bottom: 200px;
+}
+
+.leviosa_card {
+  width: 285px;
+  height: 446px;
+  background-color: #F4F5F7;
+  text-align: left;
+}
+
+.leviosa_card h1 {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.leviosa_card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #898989;
+  padding-left: 10px;
+}
+
+.lolito_card {
+    width: 285px;
+    height: 446px;
+    background-color: #F4F5F7;
+    text-align: left;
+}
+
+.lolito_card h1 {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.lolito_card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #898989;
+  padding-left: 10px;
+  
+}
+
+.lolito_card p:nth-of-type(2) {
+  text-decoration: line-through;
+  justify-content: flex-end;
+  display: flex;
+  padding-bottom: 200px;
+}
+
+.respira_card {
+  width: 285px;
+  height: 446px;
+  background-color: #F4F5F7;
+  text-align: left;
+}
+
+.respira_card h1 {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.respira_card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #898989;
+  padding-left: 10px;
+  
+}
+
+.second_cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.grifo_card {
+  width: 285px;
+  height: 446px;
+  background-color: #F4F5F7;
+  text-align: left;
+}
+
+.grifo_card h1 {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.grifo_card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #898989;
+  padding-left: 10px;
+  
+}
+
+.muggo_card {
+  width: 285px;
+  height: 446px;
+  background-color: #F4F5F7;
+  text-align: left;
+}
+
+.muggo_card h1 {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.muggo_card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #898989;
+  padding-left: 10px;
+  
+}
+
+.pingky_card {
+  width: 285px;
+  height: 446px;
+  background-color: #F4F5F7;
+  text-align: left;
+}
+
+.pingky_card h1 {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.pingky_card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #898989;
+  padding-left: 10px;
+  
+}
+
+.potty_card {
+  width: 285px;
+  height: 446px;
+  background-color: #F4F5F7;
+  text-align: left;
+}
+
+.potty_card h1 {
+  font-size: 20px;
+  color: black;
+  padding-left: 10px;
+}
+
+.potty_card p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #898989;
+  padding-left: 10px;
+  
+}
+
+.products a {
+  display: flex;
+  color: #B88E2F;
+  text-decoration: none;
+  font-weight: 600;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 50px auto;
+  width: 245px;
+  height: 48px;
+  padding-top: 20px;
+  border: solid 1px #B88E2F;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .header_menu_images {
+    display: none;
+  }
+
+  .header_menu_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+  }
+
+  .header_menu_mobile button {
+    font-size: 32px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+  }
 }
