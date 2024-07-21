@@ -409,18 +409,20 @@ body {
   
 }
 
-.beautiful_rooms_desc h1:nth-of-type(2) {
-  font-size: 16px;
-  font-weight: 600;
-  color: white;
-  background-color:#B88E2F;
-  width: 176px;
-  height: 48px;
-  line-height: 24px;
-  text-align: center;
-  
-  
-}
+.explore_more {
+    display: flex;
+    width: 222px;
+    height: 74px;
+    background-color: #B88E2F;
+    justify-content:center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    align-items: center;
+    font-weight: 700;
+  }
 
 
 
